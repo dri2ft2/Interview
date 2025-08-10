@@ -117,7 +117,7 @@ str_1, str_2 = "catcat" , "dog"
 
 # [('c', 'd'), ('a', 'o'), ('t', 'g'), ('A' ,'d')]
 
-def get_tuples(str1, str2):
+def rocknroll(str1, str2):
     letter_list = []
     longer_sting = str1 if len(str1) > len(str2) else str2
     is_longer_str1 = longer_sting == str1
