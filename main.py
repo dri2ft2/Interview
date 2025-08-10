@@ -60,22 +60,15 @@ str_1, str_2 = "catcat" , "dog"
 
 # [('c', 'd'), ('a', 'o'), ('t', 'g'), ('A' ,'d')]
 
-def get_tuples(str1, str2):
-    letter_list = []
-    longer_sting = str1 if len(str1) > len(str2) else str2
-    is_longer_str1 = longer_sting == str1
-    for i in range(len(longer_sting)):
-        try:
-            letter_tuple = (str1[i], str2[i])
-            letter_list.append(letter_tuple)
-        except IndexError:
-            if is_longer_str1:
-                letter_tuple = (longer_sting[i], "A")
-            else:
-                letter_tuple = ("A", longer_sting[i])
-            letter_list.append(letter_tuple)
-    return letter_list
-
-
-print(get_tuples(str_1, str_2))
+def pikachu_lol(kebab):
+    print("Hello")
+    print("Hello")
+    print("Hello")
+    print("Hello")
+    print("Hello")
+    print("Hello")
+    print("Hello")
+    print("Hello")
+    print("Hello")
+    print("Hello")
 # HELLO
